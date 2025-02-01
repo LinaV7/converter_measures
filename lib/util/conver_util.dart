@@ -1,6 +1,4 @@
 class Conversion {
-  //helps transform the strings in numbers for the List
-  final int w = 8;
   var formulas;
   Map<String, int> measures = {
     'meters': 0,
@@ -12,8 +10,7 @@ class Conversion {
     'pounds (lbs)': 6,
     'ounces': 7,
   };
-  //builds the list containing the formulas
-  //List<List<double>> formulas;
+
   Conversion() {
     formulas = {
       '0': [1, 0.001, 0, 0, 3.28084, 0.000621371, 0, 0],
